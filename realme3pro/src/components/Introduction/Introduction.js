@@ -7,12 +7,19 @@ const Introduction = () => {
             <img alt ='realme3pro' className ='img' width ='40%' height = 'auto'
             src='https://theidealmobile.com/wp-content/uploads/2019/05/realme-3-pro.png' />
             <p className = 'body'>
-                <h2>Realme 3 Pro</h2>
+                <h2 className = 'tl'>Realme 3 Pro</h2>
+                <div>
                 The Realme 3 Pro is a 6.3" phone with a 1080x2340p resolution display.
                  The Snapdragon 710 is paired with 4/6GB of RAM and 64/128GB of storage.
                   The main camera is 16+5MP and the selfie camera is 25MP.
-                   The battery has a 4045mAh capacity
+                   The battery has a 4045mAh capacity.
+                </div>
+                <br></br>
+                <div className = 'tl'>
+                Telegram Group : <a href = 'https://t.me/ancientid '>https://t.me/ancientid </a>  
+                </div>
             </p>
+            
         </div>
     );
 }

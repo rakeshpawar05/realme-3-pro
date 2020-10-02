@@ -13,8 +13,10 @@
 }
 
 .card {
-    background-color: blue;
     margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
     flex-grow: 1;
     flex-basis: auto;
     min-width: 100px;
@@ -22,7 +24,7 @@
     max-height: 400px;
     min-height: 300px;
     border-radius: 10px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 15px 15px 5px gray;
 }
 
 .logo {
