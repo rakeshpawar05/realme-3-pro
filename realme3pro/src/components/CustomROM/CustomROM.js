@@ -6,7 +6,7 @@ const CustomROM = () => {
         <div className = 'customrom'>
             <h1>CustomROM</h1>
             <div className = 'box'>
-                <div className="card">
+                <div className="card ">
                     <img src="https://www.gizmochina.com/wp-content/uploads/2020/04/LineageOS-Dark-Logo.jpg"
                     alt="Avatar" className = 'logo'
                      />
@@ -18,7 +18,7 @@ const CustomROM = () => {
                     </div>
                 </div>
 
-                <div className="card">
+                <div className="card ">
                     <img src="https://img.xda-cdn.com/NGVmpFQ07PymnNUip3jB3CB_2WQ=/https%3A%2F%2Fi.imgur.com%2FsoS6kwY.png%3F1"
                     alt="Avatar" className = 'logo'
                      />
@@ -63,6 +63,78 @@ const CustomROM = () => {
                         <p>AncientOS-CIVILIZATION-v4.0-Final-RMX1851-PREHISTORIC-20200921
                             Maintainer: @imrohit42069
                         </p>
+                        <p className = 'tc pointer'>Download</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <img src="https://i.ytimg.com/vi/P_3TZ4q4_lY/hqdefault.jpg"
+                    alt="Avatar" className = 'logo'
+                     />
+                    <div className="container">
+                        <h4><b>crDroid v6.10</b></h4>
+                        <p>DerpFest-10-Community-RMX1851-20200923
+                            Maintainer: @T_E_J_A_k</p>
+                        <p className = 'tc pointer'>Download</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <img src="https://www.gizmochina.com/wp-content/uploads/2020/05/OxygenOS-Logo-Dark-1024x599.jpg"
+                    alt="Avatar" className = 'logo'
+                     />
+                    <div className="container">
+                        <h4><b>OxygenOS</b></h4>
+                        <p>DerpFest-10-Community-RMX1851-20200923
+                            Maintainer: @T_E_J_A_k</p>
+                        <p className = 'tc pointer'>Download</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <img src="https://mia26x.files.wordpress.com/2018/12/pe.fw_-1.png?crop"
+                    alt="Avatar" className = 'logo'
+                     />
+                    <div className="container">
+                        <h4><b> PixelExperience</b></h4>
+                        <p>DerpFest-10-Community-RMX1851-20200923
+                            Maintainer: @T_E_J_A_k</p>
+                        <p className = 'tc pointer'>Download</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <img src="https://img.xda-cdn.com/7Vt6lk6MKQtR9mgsWncfAyMb6eg=/http%3A%2F%2Fcygwin.de%2Frr%2Frr.jpg"
+                    alt="Avatar" className = 'logo'
+                     />
+                    <div className="container">
+                        <h4><b>Resurrection Remix</b></h4>
+                        <p>DerpFest-10-Community-RMX1851-20200923
+                            Maintainer: @T_E_J_A_k</p>
+                        <p className = 'tc pointer'>Download</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <img src="https://cdn.pling.com/img/8/3/b/5/ea605685436b8a9a2ca6b1dfd5c39ffc613d.jpg"
+                    alt="Avatar" className = 'logo'
+                     />
+                    <div className="container">
+                        <h4><b>Havoc-OS</b></h4>
+                        <p>DerpFest-10-Community-RMX1851-20200923
+                            Maintainer: @T_E_J_A_k</p>
+                        <p className = 'tc pointer'>Download</p>
+                    </div>
+                </div>
+
+                <div className="card">
+                    <img src="https://i02.appmifile.com/images/2019/09/24/0ac5b332-275d-4d1c-b4ed-0bcded6ba8d8.jpg"
+                    alt="Avatar" className = 'logo'
+                     />
+                    <div className="container">
+                        <h4><b>Superior OS</b></h4>
+                        <p>DerpFest-10-Community-RMX1851-20200923
+                            Maintainer: @T_E_J_A_k</p>
                         <p className = 'tc pointer'>Download</p>
                     </div>
                 </div>

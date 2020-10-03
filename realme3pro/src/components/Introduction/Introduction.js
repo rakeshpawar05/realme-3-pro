@@ -3,23 +3,29 @@ import './Introduction.css';
 
 const Introduction = () => {
     return (
-        <div className = 'intro'>
-            <img alt ='realme3pro' className ='img' width ='40%' height = 'auto'
-            src='https://theidealmobile.com/wp-content/uploads/2019/05/realme-3-pro.png' />
-            <p className = 'body'>
-                <h2 className = 'tl'>Realme 3 Pro</h2>
-                <div>
-                The Realme 3 Pro is a 6.3" phone with a 1080x2340p resolution display.
-                 The Snapdragon 710 is paired with 4/6GB of RAM and 64/128GB of storage.
-                  The main camera is 16+5MP and the selfie camera is 25MP.
-                   The battery has a 4045mAh capacity.
+        <div className = 'intro' >
+           <div className = 'info b1 f5'>
+               <div>
+                <p className = 'purple f2'>Realme 3 Pro</p>
+                The Realme 3 Pro is a 6.3" phone with a 1080x2340p resolution display. 
+                The Snapdragon 710 is paired with 4/6GB of RAM and 64/128GB of storage. 
+                The main camera is 16+5MP and the selfie camera is 25MP. 
+                The battery has a 4045mAh capacity.
                 </div>
-                <br></br>
-                <div className = 'tl'>
-                Telegram Group : <a href = 'https://t.me/ancientid '>https://t.me/ancientid </a>  
-                </div>
-            </p>
+            </div>
+           <div className = 'info b2'></div>
+           <div className = 'info b3'>
+               <p>Link to join Telegram group for update and other discussion</p>
+               <a className = 'f2 blue pointer' href = 'https://t.me/realme3pros'>Telegram</a>
+           </div>
+           <div className = 'info b4 f5'>
             
+           </div>
+           <div className = 'info b5'>
+               <p>Link for XDA Forums</p>
+               <a className = 'pointer orange f2' href = 'https://forum.xda-developers.com/realme-3-pro'>
+                    XDA</a>
+           </div>
         </div>
     );
 }

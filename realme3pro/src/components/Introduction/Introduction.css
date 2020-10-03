@@ -1,14 +1,45 @@
 .intro {
     display: flex;
-    
+    width: 100%;
+    height: 600px;
+    background-image: url(bg.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: " b1 . b2"
+                         " b4 . b3"
+                         " b4 . b5";
 }
 
-.img {
-    order: 1;
+.info {
+    height: 200px;
 }
-
-.body {
-    order: 0;
+.b1 {
+    grid-area: b1;
+    display: flex;
+    align-items: center;
+}
+.b2 {
+    grid-area: b2;
+}
+.b3 {
+    grid-area: b3;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.b4 {
+    grid-area: b4;
+    display: flex;
+    align-items: center;
+}
+.b5 {
+    grid-area: b5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
