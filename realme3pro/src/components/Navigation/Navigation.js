@@ -13,10 +13,10 @@ const Navigation = () => {
                 <Link to='/customrom'>
                     <li>Custom ROMs</li>
                 </Link>
-                <Link to='/introduction'>
+                <Link to='/'>
                     <li>Stock ROM</li>
                 </Link>
-                <Link to='/introduction'>
+                <Link to='/others'>
                     <li>Others</li>
                 </Link>
             </ul>

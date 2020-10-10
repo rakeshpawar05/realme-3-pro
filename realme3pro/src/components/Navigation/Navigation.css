@@ -19,11 +19,3 @@ nav {
 li {
     color: white;
 }
-
-li:hover {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: violet;
-}
