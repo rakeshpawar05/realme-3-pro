@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Romcard = props => {
+const Romcard = ({name, imageurl, info}) => {
 
-    const {name, imageurl, info} = props;
+    // const {name, imageurl, info} = props;
 
     return(
         <div className="card ">

@@ -15,7 +15,7 @@ const CustomROM = () => {
         <div className = 'customrom'>
             <h1>CustomROM </h1>
             <div className = 'box'>
-                {Romlist.map(romobj => getRomcard(romobj))}
+                {Romlist.map(obj => getRomcard(obj))}
             </div>
         </div>
     );
